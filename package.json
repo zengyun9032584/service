@@ -1,0 +1,23 @@
+{
+  "name": "service-morse",
+  "version": "1.0.0",
+  "description": "为前端morse项目提供后端服务",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zengyun9032584/service.git"
+  },
+  "author": "zengyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zengyun9032584/service/issues"
+  },
+  "homepage": "https://github.com/zengyun9032584/service#readme",
+  "dependencies": {
+    "express": "^4.15.5",
+    "mysql": "^2.14.1"
+  }
+}

@@ -1,0 +1,142 @@
+{
+    "passwd": {
+        "dot": ".",
+        "tre": "-"
+    },
+    "letter": {
+        "typeA": [
+            "dot",
+            "tre"
+        ],
+        "typeB": [
+            "tre",
+            "dot",
+            "dot",
+            "dot"
+        ],
+        "typeC": [
+            "tre",
+            "dot",
+            "tre",
+            "dot"
+        ],
+        "typeD": [
+            "tre",
+            "dot",
+            "dot"
+        ],
+        "typeE": [
+            "dot"
+        ],
+        "typeF": [
+            "dot",
+            "dot",
+            "tre",
+            "dot"
+        ],
+        "typeG": [
+            "tre",
+            "tre",
+            "dot"
+        ],
+        "typeH": [
+            "dot",
+            "dot",
+            "dot",
+            "dot"
+        ],
+        "typeI": [
+            "dot",
+            "dot"
+        ],
+        "typeJ": [
+            "dot",
+            "tre",
+            "tre",
+            "tre"
+        ],
+        "typeK": [
+            "tre",
+            "dot",
+            "tre"
+        ],
+        "typeL": [
+            "dot",
+            "tre",
+            "dot",
+            "dot"
+        ],
+        "typeM": [
+            "tre",
+            "tre"
+        ],
+        "typeN": [
+            "tre",
+            "dot"
+        ],
+        "typeO": [
+            "tre",
+            "tre",
+            "tre"
+        ],
+        "typeP": [
+            "dot",
+            "tre",
+            "tre",
+            "dot"
+        ],
+        "typeQ": [
+            "tre",
+            "tre",
+            "dot",
+            "tre"
+        ],
+        "typeR": [
+            "dot",
+            "tre",
+            "dot"
+        ],
+        "typeS": [
+            "dot",
+            "dot",
+            "dot"
+        ],
+        "typeT": [
+            "tre"
+        ],
+        "typeU": [
+            "dot",
+            "dot",
+            "tre"
+        ],
+        "typeV": [
+            "dot",
+            "dot",
+            "dot",
+            "tre"
+        ],
+        "typeW": [
+            "dot",
+            "tre",
+            "tre"
+        ],
+        "typeX": [
+            "tre",
+            "dot",
+            "dot",
+            "tre"
+        ],
+        "typeY": [
+            "tre",
+            "dot",
+            "tre",
+            "tre"
+        ],
+        "typeZ": [
+            "tre",
+            "tre",
+            "dot",
+            "dot"
+        ]
+    }
+}
