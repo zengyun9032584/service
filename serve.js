@@ -16,6 +16,30 @@ app.get('/list', function (req, res) {
   });
 })
 
+app.get('/getDate', (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  let request = { result: false, date: '', time: '' };
+  switch (req.query.param) {
+    case 'all':
+      request.result = true;
+      request.date = new Date().toLocaleDateString();
+      request.time = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`;
+      break;
+    case 'time':
+      request.time = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`;
+      break;
+    case 'date':
+     request.date = new Date().toLocaleDateString();
+      break;
+    default:
+      break;
+  }
+  res.json(request);
+});
+
 let server = app.listen(8081, function () {
   // 获取端口
   let port = server.address().port
